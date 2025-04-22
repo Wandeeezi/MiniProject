@@ -105,7 +105,19 @@ public class Graph {
 		}
 	}
 	
-	
+	public static void main(String[] args) {
+		Graph busNetwork = new Graph(true,false);
+		Vertex CliftonStation = busNetwork.addVertex("Clifton");
+		Vertex capeMayStation = busNetwork.addVertex("Cape May");
+		
+		busNetwork.addEdge(CliftonStation, capeMayStation,1000);
+		
+		
+		busNetwork.print();
+
+		
+		
+	}
 	
 	
 }
