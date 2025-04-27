@@ -1,2 +1,0 @@
-# MiniProject
-Graph ADT
